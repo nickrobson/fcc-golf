@@ -44,6 +44,7 @@ var boo=b=>b===!!b;
 ```
 
 ### Sorted Union
+```js
 var unite=(a,b,c)=>Array.from(new Map(a.concat(b).concat(c).map(a=>[a,1])).keys())
 ```
 
